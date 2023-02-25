@@ -23,6 +23,7 @@ const App = () => {
                 <div><a href='https://cute-cheesecake-70dedb.netlify.app/'>Tic Tac Toe</a></div>
                 <div><a href='https://sensational-choux-d28f4f.netlify.app/'>Guessing Game</a></div>
                 <div><a href='https://venerable-narwhal-ccd845.netlify.app/about.html'>Personal Site</a></div>
+                <div><a href='https://bobbywhitacre27.github.io/cv/'>First Site</a></div>
             </main>
             <footer>
                 <img className='icons' src={require('./github.png')}></img><img className='icons' src={require('./email.png')}></img><img className='icons' src={require('./linkedin.png')}></img>
