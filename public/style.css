@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    padding: 3%;
+}
+
+#photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#textDiv {
+    display: inline;
+    align-self: center;
+    bottom: 0;
+    font-size: large;
+}
+
+main {
+    border: solid;
+    text-align: center;
+    font-size: xx-large;
+}
+
+main, div {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+footer, img {
+    padding: 5px;
+}
+
+.icons {
+    width: 50px;
+    border: solid;
+}
