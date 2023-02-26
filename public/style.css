@@ -1,11 +1,18 @@
 *{
     margin: 0px;
+    font-family: 'Courier New', monospace;;
+    color: black;
+}
+
+html{
+    background: url('https://images.unsplash.com/photo-1541140134513-85a161dc4a00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JleSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80') no-repeat center fixed; 
+    background-size: cover;
 }
 
 header {
     display: flex;
     justify-content: space-evenly;
-    border: solid;
+    /* border: solid; */
     padding: 3%;
 }
 
@@ -23,9 +30,19 @@ header {
 }
 
 main {
-    border: solid;
+    /* border: solid; */
     text-align: center;
     font-size: xx-large;
+}
+
+main, #portfolioDiv, #skillsDiv, #educationDiv {
+    /* border: solid; */
+    text-align: center;
+    font-size: xx-large;
+}
+
+.title {
+    text-align: left;
 }
 
 main, div {
@@ -43,5 +60,27 @@ footer, img {
 
 .icons {
     width: 50px;
-    border: solid;
+    /* border: solid; */
 }
+
+.educationDetailDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.educationDetailDiv, p {
+    font-size: smaller;
+}
+
+.schoolLogos {
+    height: 75px;
+ 
+}
+
+#fullstackLogo {
+    background-color: white;
+    margin: 1px;
+}
+
+
+
